@@ -1,0 +1,35 @@
+$background: #ffffff;
+
+html,
+body {
+    background: $background;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+
+    top: 90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+
+    &.input {
+    }
+    &.output {
+    }
+}
